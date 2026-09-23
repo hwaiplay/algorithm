@@ -1,4 +1,4 @@
-package org.example.algorithm;
+package org.example.programmers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

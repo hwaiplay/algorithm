@@ -1,4 +1,4 @@
-package org.example.algorithm.lv0;
+package org.example.programmers.lv0;
 
 /**
  * fileName       : PcceNo1_6
