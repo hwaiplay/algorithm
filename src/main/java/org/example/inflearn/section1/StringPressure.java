@@ -16,8 +16,10 @@ public class StringPressure {
 
     public static String solution(String s){
         String answer="";
+        s+= " ";
         int charCount = 1;
-        // s = KKHSSSSSSSE
+        // s = KGG
+        // answer = KG
         for (int i = 0; i < s.length(); i++) {
             if (answer.length() == 0) {
                 answer += s.charAt(i);
@@ -29,9 +31,10 @@ public class StringPressure {
                 charCount++;//2
             }
 
+
         }
 
-        return answer;
+        return answer.trim();
     }
 
     public static void main(String[] args){
