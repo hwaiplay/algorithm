@@ -30,8 +30,6 @@ public class StringPressure {
             } else {
                 charCount++;//2
             }
-
-
         }
 
         return answer.trim();
